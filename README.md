@@ -1,6 +1,6 @@
 # React App
 
-###Getting Started
+## Getting Started
 
 Run the following commands to install dependencies and run a local version of the React app.
 
