@@ -1,0 +1,133 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   TEXT TRANSFORM
+   Docs: http://tachyons.io/docs/typography/text-transform/
+
+   Base:
+     tt = text-transform
+
+   Modifiers
+     c = capitalize
+     l = lowercase
+     u = uppercase
+     n = none
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+
+.ttc {
+  text-transform: capitalize;
+}
+
+.ttl {
+  text-transform: lowercase;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.ttn {
+  text-transform: none;
+}
+
+@include breakpoint($bp--xsmall) {
+  .ttc-xs {
+    text-transform: capitalize;
+  }
+
+  .ttl-xs {
+    text-transform: lowercase;
+  }
+
+  .ttu-xs {
+    text-transform: uppercase;
+  }
+
+  .ttn-xs {
+    text-transform: none;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .ttc-sm {
+    text-transform: capitalize;
+  }
+
+  .ttl-sm {
+    text-transform: lowercase;
+  }
+
+  .ttu-sm {
+    text-transform: uppercase;
+  }
+
+  .ttn-sm {
+    text-transform: none;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .ttc-md {
+    text-transform: capitalize;
+  }
+
+  .ttl-md {
+    text-transform: lowercase;
+  }
+
+  .ttu-md {
+    text-transform: uppercase;
+  }
+
+  .ttn-md {
+    text-transform: none;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .ttc-lg {
+    text-transform: capitalize;
+  }
+
+  .ttl-lg {
+    text-transform: lowercase;
+  }
+
+  .ttu-lg {
+    text-transform: uppercase;
+  }
+
+  .ttn-lg {
+    text-transform: none;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .ttc-xl {
+    text-transform: capitalize;
+  }
+
+  .ttl-xl {
+    text-transform: lowercase;
+  }
+
+  .ttu-xl {
+    text-transform: uppercase;
+  }
+
+  .ttn-xl {
+    text-transform: none;
+  }
+}

@@ -1,0 +1,83 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   BACKGROUND SIZE
+   Docs: http://tachyons.io/docs/themes/background-size/
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+/*
+  Often used in combination with background image set as an inline style
+  on an html element.
+*/
+
+/* stylelint-disable declaration-no-important */
+.cover {
+  background-size: cover !important;
+}
+
+.contain {
+  background-size: contain !important;
+}
+
+@include breakpoint($bp--xsmall) {
+  .cover-xs {
+    background-size: cover !important;
+  }
+
+  .contain-xs {
+    background-size: contain !important;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .cover-sm {
+    background-size: cover !important;
+  }
+
+  .contain-sm {
+    background-size: contain !important;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .cover-md {
+    background-size: cover !important;
+  }
+
+  .contain-md {
+    background-size: contain !important;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .cover-lg {
+    background-size: cover !important;
+  }
+
+  .contain-lg {
+    background-size: contain !important;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .cover-xl {
+    background-size: cover !important;
+  }
+
+  .contain-xl {
+    background-size: contain !important;
+  }
+}
+/* stylelint-enable declaration-no-important */

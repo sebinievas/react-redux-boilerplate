@@ -1,0 +1,124 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   POSITIONING
+   Docs: http://tachyons.io/docs/layout/position/
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+@include breakpoint($bp--xsmall) {
+  .static-xs {
+    position: static;
+  }
+
+  .relative-xs {
+    position: relative;
+  }
+
+  .absolute-xs {
+    position: absolute;
+  }
+
+  .fixed-xs {
+    position: fixed;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .static-sm {
+    position: static;
+  }
+
+  .relative-sm {
+    position: relative;
+  }
+
+  .absolute-sm {
+    position: absolute;
+  }
+
+  .fixed-sm {
+    position: fixed;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .static-md {
+    position: static;
+  }
+
+  .relative-md {
+    position: relative;
+  }
+
+  .absolute-md {
+    position: absolute;
+  }
+
+  .fixed-md {
+    position: fixed;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .static-lg {
+    position: static;
+  }
+
+  .relative-lg {
+    position: relative;
+  }
+
+  .absolute-lg {
+    position: absolute;
+  }
+
+  .fixed-lg {
+    position: fixed;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .static-xl {
+    position: static;
+  }
+
+  .relative-xl {
+    position: relative;
+  }
+
+  .absolute-xl {
+    position: absolute;
+  }
+
+  .fixed-xl {
+    position: fixed;
+  }
+}

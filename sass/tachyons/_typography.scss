@@ -1,0 +1,207 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   TYPOGRAPHY
+   http://tachyons.io/docs/typography/measure/
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+$measure: 30em;
+$measure-wide: 34em;
+$measure-narrow: 20em;
+
+
+
+/* Measure is limited to ~66 characters */
+.measure {
+  max-width: $measure;
+}
+
+/* Measure is limited to ~80 characters */
+.measure-wide {
+  max-width: $measure-wide;
+}
+
+/* Measure is limited to ~45 characters */
+.measure-narrow {
+  max-width: $measure-narrow;
+}
+
+/* Book paragraph style - paragraphs are indented with no vertical spacing. */
+.indent {
+  text-indent: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+/* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@include breakpoint($bp--xsmall) {
+  .measure-xs {
+    max-width: $measure;
+  }
+
+  .measure-wide-xs {
+    max-width: $measure-wide;
+  }
+
+  .measure-narrow-xs {
+    max-width: $measure-narrow;
+  }
+
+  .indent-xs {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .small-caps-xs {
+    font-variant: small-caps;
+  }
+
+  .truncate-xs {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .measure-sm {
+    max-width: $measure;
+  }
+
+  .measure-wide-sm {
+    max-width: $measure-wide;
+  }
+
+  .measure-narrow-sm {
+    max-width: $measure-narrow;
+  }
+
+  .indent-sm {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .small-caps-sm {
+    font-variant: small-caps;
+  }
+
+  .truncate-sm {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .measure-md {
+    max-width: $measure;
+  }
+
+  .measure-wide-md {
+    max-width: $measure-wide;
+  }
+
+  .measure-narrow-md {
+    max-width: $measure-narrow;
+  }
+
+  .indent-md {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .small-caps-md {
+    font-variant: small-caps;
+  }
+
+  .truncate-md {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .measure-lg {
+    max-width: $measure;
+  }
+
+  .measure-wide-lg {
+    max-width: $measure-wide;
+  }
+
+  .measure-narrow-lg {
+    max-width: $measure-narrow;
+  }
+
+  .indent-lg {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .small-caps-lg {
+    font-variant: small-caps;
+  }
+
+  .truncate-lg {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .measure-xl {
+    max-width: $measure;
+  }
+
+  .measure-wide-xl {
+    max-width: $measure-wide;
+  }
+
+  .measure-narrow-xl {
+    max-width: $measure-narrow;
+  }
+
+  .indent-xl {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .small-caps-xl {
+    font-variant: small-caps;
+  }
+
+  .truncate-xl {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

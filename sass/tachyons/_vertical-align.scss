@@ -1,0 +1,123 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   VERTICAL ALIGN
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+
+.v-base {
+  vertical-align: baseline;
+}
+
+.v-mid {
+  vertical-align: middle;
+}
+
+.v-top {
+  vertical-align: top;
+}
+
+.v-btm {
+  vertical-align: bottom;
+}
+
+@include breakpoint($bp--xsmall) {
+  .v-base-xs {
+    vertical-align: baseline;
+  }
+
+  .v-mid-xs {
+    vertical-align: middle;
+  }
+
+  .v-top-xs {
+    vertical-align: top;
+  }
+
+  .v-btm-xs {
+    vertical-align: bottom;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .v-base-sm {
+    vertical-align: baseline;
+  }
+
+  .v-mid-sm {
+    vertical-align: middle;
+  }
+
+  .v-top-sm {
+    vertical-align: top;
+  }
+
+  .v-btm-sm {
+    vertical-align: bottom;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .v-base-md {
+    vertical-align: baseline;
+  }
+
+  .v-mid-md {
+    vertical-align: middle;
+  }
+
+  .v-top-md {
+    vertical-align: top;
+  }
+
+  .v-btm-md {
+    vertical-align: bottom;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .v-base-lg {
+    vertical-align: baseline;
+  }
+
+  .v-mid-lg {
+    vertical-align: middle;
+  }
+
+  .v-top-lg {
+    vertical-align: top;
+  }
+
+  .v-btm-lg {
+    vertical-align: bottom;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .v-base-xl {
+    vertical-align: baseline;
+  }
+
+  .v-mid-xl {
+    vertical-align: middle;
+  }
+
+  .v-top-xl {
+    vertical-align: top;
+  }
+
+  .v-btm-xl {
+    vertical-align: bottom;
+  }
+}

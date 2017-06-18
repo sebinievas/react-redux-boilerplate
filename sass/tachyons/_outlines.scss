@@ -1,0 +1,99 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   OUTLINES
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+
+.outline {
+  outline: 1px solid;
+}
+
+.outline-transparent {
+  outline: 1px solid transparent;
+}
+
+.outline-0 {
+  outline: 0;
+}
+
+@include breakpoint($bp--xsmall) {
+  .outline-xs {
+    outline: 1px solid;
+  }
+
+  .outline-transparent-xs {
+    outline: 1px solid transparent;
+  }
+
+  .outline-0-xs {
+    outline: 0;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .outline-sm {
+    outline: 1px solid;
+  }
+
+  .outline-transparent-sm {
+    outline: 1px solid transparent;
+  }
+
+  .outline-0-sm {
+    outline: 0;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .outline-md {
+    outline: 1px solid;
+  }
+
+  .outline-transparent-md {
+    outline: 1px solid transparent;
+  }
+
+  .outline-0-md {
+    outline: 0;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .outline-lg {
+    outline: 1px solid;
+  }
+
+  .outline-transparent-lg {
+    outline: 1px solid transparent;
+  }
+
+  .outline-0-lg {
+    outline: 0;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .outline-xl {
+    outline: 1px solid;
+  }
+
+  .outline-transparent-xl {
+    outline: 1px solid transparent;
+  }
+
+  .outline-0-xl {
+    outline: 0;
+  }
+}

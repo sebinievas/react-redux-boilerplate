@@ -1,0 +1,187 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+    BACKGROUND POSITION
+
+    Base:
+    bg = background
+
+    Modifiers:
+    -center = center center
+    -top = top center
+    -right = center right
+    -bottom = bottom center
+    -left = center left
+
+    Media Query Extensions:
+      -xs = not-small
+      -sm  = medium
+      -md  = large
+
+ */
+
+.bg-center {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-top {
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.bg-right {
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.bg-bottom {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.bg-left {
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+@include breakpoint($bp--xsmall) {
+  .bg-center-xs {
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .bg-top-xs {
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+  .bg-right-xs {
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .bg-bottom-xs {
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  .bg-left-xs {
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .bg-center-sm {
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .bg-top-sm {
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+  .bg-right-sm {
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .bg-bottom-sm {
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  .bg-left-sm {
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .bg-center-md {
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .bg-top-md {
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+  .bg-right-md {
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .bg-bottom-md {
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  .bg-left-md {
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .bg-center-lg {
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .bg-top-lg {
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+  .bg-right-lg {
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .bg-bottom-lg {
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  .bg-left-lg {
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .bg-center-xl {
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .bg-top-xl {
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+  .bg-right-xl {
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .bg-bottom-xl {
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  .bg-left-xl {
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+}

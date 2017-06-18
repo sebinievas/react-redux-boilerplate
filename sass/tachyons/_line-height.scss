@@ -1,0 +1,100 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   LINE HEIGHT / LEADING
+   Docs: http://tachyons.io/docs/typography/line-height
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+
+.lh-solid {
+  line-height: 1;
+}
+
+.lh-title {
+  line-height: 1.25;
+}
+
+.lh-copy {
+  line-height: 1.5;
+}
+
+@include breakpoint($bp--xsmall) {
+  .lh-solid-xs {
+    line-height: 1;
+  }
+
+  .lh-title-xs {
+    line-height: 1.25;
+  }
+
+  .lh-copy-xs {
+    line-height: 1.5;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .lh-solid-sm {
+    line-height: 1;
+  }
+
+  .lh-title-sm {
+    line-height: 1.25;
+  }
+
+  .lh-copy-sm {
+    line-height: 1.5;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .lh-solid-md {
+    line-height: 1;
+  }
+
+  .lh-title-md {
+    line-height: 1.25;
+  }
+
+  .lh-copy-md {
+    line-height: 1.5;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .lh-solid-lg {
+    line-height: 1;
+  }
+
+  .lh-title-lg {
+    line-height: 1.25;
+  }
+
+  .lh-copy-lg {
+    line-height: 1.5;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .lh-solid-xl {
+    line-height: 1;
+  }
+
+  .lh-title-xl {
+    line-height: 1.25;
+  }
+
+  .lh-copy-xl {
+    line-height: 1.5;
+  }
+}

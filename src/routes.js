@@ -1,10 +1,11 @@
 import React from 'react';
-import { Route, IndexRoute } from 'react-router';
+import { Route, Switch } from 'react-router-dom';
 
-import App from './components/app';
+import Dashboard from './components/dashboard.js';
 
 export default (
-  <Route path="/" component={App}>
-  </Route>
+  <Switch>
+    <Route exact path="/" component={Dashboard} />
+  </Switch>
 );
 

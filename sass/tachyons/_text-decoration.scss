@@ -1,0 +1,101 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   TEXT DECORATION
+   Docs: http://tachyons.io/docs/typography/text-decoration/
+
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+
+.strike {
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+@include breakpoint($bp--xsmall) {
+  .strike-xs {
+    text-decoration: line-through;
+  }
+
+  .underline-xs {
+    text-decoration: underline;
+  }
+
+  .no-underline-xs {
+    text-decoration: none;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .strike-sm {
+    text-decoration: line-through;
+  }
+
+  .underline-sm {
+    text-decoration: underline;
+  }
+
+  .no-underline-sm {
+    text-decoration: none;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .strike-md {
+    text-decoration: line-through;
+  }
+
+  .underline-md {
+    text-decoration: underline;
+  }
+
+  .no-underline-md {
+    text-decoration: none;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .strike-lg {
+    text-decoration: line-through;
+  }
+
+  .underline-lg {
+    text-decoration: underline;
+  }
+
+  .no-underline-lg {
+    text-decoration: none;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .strike-xl {
+    text-decoration: line-through;
+  }
+
+  .underline-xl {
+    text-decoration: underline;
+  }
+
+  .no-underline-xl {
+    text-decoration: none;
+  }
+}

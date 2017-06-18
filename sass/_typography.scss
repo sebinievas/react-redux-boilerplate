@@ -1,0 +1,42 @@
+// Font families
+$ff: 'Roboto', Helvetica;
+
+// Add line heights per Sunny's recommendation
+// 1.2 headline (bold) - 8 options
+// 1.5 normal (not bold) - 8 options
+
+// Typography Scale
+$fs-xxl: 2.074em;
+$fs-xl:  1.728em;
+$fs-lg:  1.44em;
+$fs-md:  1.2em;
+$fs-std: 1em;
+$fs-sm:  0.833em;
+$fs-xs:  0.694em;
+$fs-xxs: 0.579em;
+
+// Basic resets
+html {
+  font-family: $ff;
+  font-size: 16px;
+  line-height: 1.5em;
+  height: 100%;
+}
+
+body {
+  font-size: $fs-std;
+  height: 100%;
+}
+// mixin
+//font($xs, body|headline) {
+//  .headline-text {
+//    line-height: 1.2em;
+//    font-weight: bold;
+//  }
+//
+//  .body-text {
+//    line-height: 1.5em;
+//  }
+//}
+
+

@@ -1,0 +1,135 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   BORDER STYLES
+   Docs: http://tachyons.io/docs/themes/borders/
+
+   Depends on base border module in _borders.css
+
+   Base:
+     b = border-style
+
+   Modifiers:
+     --none   = none
+     --dotted = dotted
+     --dashed = dashed
+     --solid  = solid
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+ */
+
+.b--dotted {
+  border-style: dotted;
+}
+
+.b--dashed {
+  border-style: dashed;
+}
+
+.b--solid {
+  border-style: solid;
+}
+
+.b--none {
+  border-style: none;
+}
+
+@include breakpoint($bp--xsmall) {
+  .b--dotted-xs {
+    border-style: dotted;
+  }
+
+  .b--dashed-xs {
+    border-style: dashed;
+  }
+
+  .b--solid-xs {
+    border-style: solid;
+  }
+
+  .b--none-xs {
+    border-style: none;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .b--dotted-sm {
+    border-style: dotted;
+  }
+
+  .b--dashed-sm {
+    border-style: dashed;
+  }
+
+  .b--solid-sm {
+    border-style: solid;
+  }
+
+  .b--none-sm {
+    border-style: none;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .b--dotted-md {
+    border-style: dotted;
+  }
+
+  .b--dashed-md {
+    border-style: dashed;
+  }
+
+  .b--solid-md {
+    border-style: solid;
+  }
+
+  .b--none-md {
+    border-style: none;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .b--dotted-lg {
+    border-style: dotted;
+  }
+
+  .b--dashed-lg {
+    border-style: dashed;
+  }
+
+  .b--solid-lg {
+    border-style: solid;
+  }
+
+  .b--none-lg {
+    border-style: none;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .b--dotted-xl {
+    border-style: dotted;
+  }
+
+  .b--dashed-xl {
+    border-style: dashed;
+  }
+
+  .b--solid-xl {
+    border-style: solid;
+  }
+
+  .b--none-xl {
+    border-style: none;
+  }
+}

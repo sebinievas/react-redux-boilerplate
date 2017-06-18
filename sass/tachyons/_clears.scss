@@ -1,0 +1,136 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   CLEARFIX
+   http://tachyons.io/docs/layout/clearfix/
+
+*/
+
+/* Nicolas Gallaghers Clearfix solution
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.cl {
+  clear: left;
+}
+
+.cr {
+  clear: right;
+}
+
+.cb {
+  clear: both;
+}
+
+.cn {
+  clear: none;
+}
+
+@include breakpoint($bp--xsmall) {
+  .cl-xs {
+    clear: left;
+  }
+
+  .cr-xs {
+    clear: right;
+  }
+
+  .cb-xs {
+    clear: both;
+  }
+
+  .cn-xs {
+    clear: none;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .cl-sm {
+    clear: left;
+  }
+
+  .cr-sm {
+    clear: right;
+  }
+
+  .cb-sm {
+    clear: both;
+  }
+
+  .cn-sm {
+    clear: none;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .cl-md {
+    clear: left;
+  }
+
+  .cr-md {
+    clear: right;
+  }
+
+  .cb-md {
+    clear: both;
+  }
+
+  .cn-md {
+    clear: none;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .cl-lg {
+    clear: left;
+  }
+
+  .cr-lg {
+    clear: right;
+  }
+
+  .cb-lg {
+    clear: both;
+  }
+
+  .cn-lg {
+    clear: none;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .cl-xl {
+    clear: left;
+  }
+
+  .cr-xl {
+    clear: right;
+  }
+
+  .cb-xl {
+    clear: both;
+  }
+
+  .cn-xl {
+    clear: none;
+  }
+}

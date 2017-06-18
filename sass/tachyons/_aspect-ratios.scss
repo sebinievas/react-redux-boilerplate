@@ -1,0 +1,395 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   ASPECT RATIOS
+
+*/
+
+/* This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
+ * Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
+ * Make sure there are no height and width attributes on the embedded media.
+ * Adapted from: https://github.com/suitcss/components-flex-embed
+ *
+ * Example:
+ *
+ * <div class="aspect-ratio aspect-ratio--16x9">
+ *  <iframe class="aspect-ratio--object"></iframe>
+ * </div>
+ *
+ * */
+
+.aspect-ratio {
+  height: 0;
+  position: relative;
+}
+
+.aspect-ratio--16x9 {
+  padding-bottom: 56.25%;
+}
+
+.aspect-ratio--9x16 {
+  padding-bottom: 177.77%;
+}
+
+.aspect-ratio--4x3 {
+  padding-bottom: 75%;
+}
+
+.aspect-ratio--3x4 {
+  padding-bottom: 133.33%;
+}
+
+.aspect-ratio--6x4 {
+  padding-bottom: 66.6%;
+}
+
+.aspect-ratio--4x6 {
+  padding-bottom: 150%;
+}
+
+.aspect-ratio--8x5 {
+  padding-bottom: 62.5%;
+}
+
+.aspect-ratio--5x8 {
+  padding-bottom: 160%;
+}
+
+.aspect-ratio--7x5 {
+  padding-bottom: 71.42%;
+}
+
+.aspect-ratio--5x7 {
+  padding-bottom: 140%;
+}
+
+.aspect-ratio--1x1 {
+  padding-bottom: 100%;
+}
+
+.aspect-ratio--object {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+@include breakpoint($bp--xsmall) {
+  .aspect-ratio-xs {
+    height: 0;
+    position: relative;
+  }
+
+  .aspect-ratio--16x9-xs {
+    padding-bottom: 56.25%;
+  }
+
+  .aspect-ratio--9x16-xs {
+    padding-bottom: 177.77%;
+  }
+
+  .aspect-ratio--4x3-xs {
+    padding-bottom: 75%;
+  }
+
+  .aspect-ratio--3x4-xs {
+    padding-bottom: 133.33%;
+  }
+
+  .aspect-ratio--6x4-xs {
+    padding-bottom: 66.6%;
+  }
+
+  .aspect-ratio--4x6-xs {
+    padding-bottom: 150%;
+  }
+
+  .aspect-ratio--8x5-xs {
+    padding-bottom: 62.5%;
+  }
+
+  .aspect-ratio--5x8-xs {
+    padding-bottom: 160%;
+  }
+
+  .aspect-ratio--7x5-xs {
+    padding-bottom: 71.42%;
+  }
+
+  .aspect-ratio--5x7-xs {
+    padding-bottom: 140%;
+  }
+
+  .aspect-ratio--1x1-xs {
+    padding-bottom: 100%;
+  }
+
+  .aspect-ratio--object-xs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .aspect-ratio-sm {
+    height: 0;
+    position: relative;
+  }
+
+  .aspect-ratio--16x9-sm {
+    padding-bottom: 56.25%;
+  }
+
+  .aspect-ratio--9x16-sm {
+    padding-bottom: 177.77%;
+  }
+
+  .aspect-ratio--4x3-sm {
+    padding-bottom: 75%;
+  }
+
+  .aspect-ratio--3x4-sm {
+    padding-bottom: 133.33%;
+  }
+
+  .aspect-ratio--6x4-sm {
+    padding-bottom: 66.6%;
+  }
+
+  .aspect-ratio--4x6-sm {
+    padding-bottom: 150%;
+  }
+
+  .aspect-ratio--8x5-sm {
+    padding-bottom: 62.5%;
+  }
+
+  .aspect-ratio--5x8-sm {
+    padding-bottom: 160%;
+  }
+
+  .aspect-ratio--7x5-sm {
+    padding-bottom: 71.42%;
+  }
+
+  .aspect-ratio--5x7-sm {
+    padding-bottom: 140%;
+  }
+
+  .aspect-ratio--1x1-sm {
+    padding-bottom: 100%;
+  }
+
+  .aspect-ratio--object-sm {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .aspect-ratio-lg {
+    height: 0;
+    position: relative;
+  }
+
+  .aspect-ratio--16x9-lg {
+    padding-bottom: 56.25%;
+  }
+
+  .aspect-ratio--9x16-lg {
+    padding-bottom: 177.77%;
+  }
+
+  .aspect-ratio--4x3-lg {
+    padding-bottom: 75%;
+  }
+
+  .aspect-ratio--3x4-lg {
+    padding-bottom: 133.33%;
+  }
+
+  .aspect-ratio--6x4-lg {
+    padding-bottom: 66.6%;
+  }
+
+  .aspect-ratio--4x6-lg {
+    padding-bottom: 150%;
+  }
+
+  .aspect-ratio--8x5-lg {
+    padding-bottom: 62.5%;
+  }
+
+  .aspect-ratio--5x8-lg {
+    padding-bottom: 160%;
+  }
+
+  .aspect-ratio--7x5-lg {
+    padding-bottom: 71.42%;
+  }
+
+  .aspect-ratio--5x7-lg {
+    padding-bottom: 140%;
+  }
+
+  .aspect-ratio--1x1-lg {
+    padding-bottom: 100%;
+  }
+
+  .aspect-ratio--object-lg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .aspect-ratio-lg {
+    height: 0;
+    position: relative;
+  }
+
+  .aspect-ratio--16x9-lg {
+    padding-bottom: 56.25%;
+  }
+
+  .aspect-ratio--9x16-lg {
+    padding-bottom: 177.77%;
+  }
+
+  .aspect-ratio--4x3-lg {
+    padding-bottom: 75%;
+  }
+
+  .aspect-ratio--3x4-lg {
+    padding-bottom: 133.33%;
+  }
+
+  .aspect-ratio--6x4-lg {
+    padding-bottom: 66.6%;
+  }
+
+  .aspect-ratio--4x6-lg {
+    padding-bottom: 150%;
+  }
+
+  .aspect-ratio--8x5-lg {
+    padding-bottom: 62.5%;
+  }
+
+  .aspect-ratio--5x8-lg {
+    padding-bottom: 160%;
+  }
+
+  .aspect-ratio--7x5-lg {
+    padding-bottom: 71.42%;
+  }
+
+  .aspect-ratio--5x7-lg {
+    padding-bottom: 140%;
+  }
+
+  .aspect-ratio--1x1-lg {
+    padding-bottom: 100%;
+  }
+
+  .aspect-ratio--object-lg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .aspect-ratio-xl {
+    height: 0;
+    position: relative;
+  }
+
+  .aspect-ratio--16x9-xl {
+    padding-bottom: 56.25%;
+  }
+
+  .aspect-ratio--9x16-xl {
+    padding-bottom: 177.77%;
+  }
+
+  .aspect-ratio--4x3-xl {
+    padding-bottom: 75%;
+  }
+
+  .aspect-ratio--3x4-xl {
+    padding-bottom: 133.33%;
+  }
+
+  .aspect-ratio--6x4-xl {
+    padding-bottom: 66.6%;
+  }
+
+  .aspect-ratio--4x6-xl {
+    padding-bottom: 150%;
+  }
+
+  .aspect-ratio--8x5-xl {
+    padding-bottom: 62.5%;
+  }
+
+  .aspect-ratio--5x8-xl {
+    padding-bottom: 160%;
+  }
+
+  .aspect-ratio--7x5-xl {
+    padding-bottom: 71.42%;
+  }
+
+  .aspect-ratio--5x7-xl {
+    padding-bottom: 140%;
+  }
+
+  .aspect-ratio--1x1-xl {
+    padding-bottom: 100%;
+  }
+
+  .aspect-ratio--object-xl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+}

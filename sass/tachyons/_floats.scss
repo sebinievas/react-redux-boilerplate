@@ -1,0 +1,128 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   FLOATS
+   http://tachyons.io/docs/layout/floats/
+
+   1. Floated elements are automatically rendered as block level elements.
+      Setting floats to display inline will fix the double margin bug in
+      ie6. You know... just in case.
+
+   2. Don't forget to clearfix your floats with .cf
+
+   Base:
+     f = float
+
+   Modifiers:
+     l = left
+     r = right
+     n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+
+
+.fl {
+  float: left;
+  _display: inline;
+}
+
+.fr {
+  float: right;
+  _display: inline;
+}
+
+.fn {
+  float: none;
+}
+
+@include breakpoint($bp--xsmall) {
+  .fl-xs {
+    float: left;
+    _display: inline;
+  }
+
+  .fr-xs {
+    float: right;
+    _display: inline;
+  }
+
+  .fn-xs {
+    float: none;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .fl-sm {
+    float: left;
+    _display: inline;
+  }
+
+  .fr-sm {
+    float: right;
+    _display: inline;
+  }
+
+  .fn-sm {
+    float: none;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .fl-md {
+    float: left;
+    _display: inline;
+  }
+
+  .fr-md {
+    float: right;
+    _display: inline;
+  }
+
+  .fn-md {
+    float: none;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .fl-lg {
+    float: left;
+    _display: inline;
+  }
+
+  .fr-lg {
+    float: right;
+    _display: inline;
+  }
+
+  .fn-lg {
+    float: none;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .fl-xl {
+    float: left;
+    _display: inline;
+  }
+
+  .fr-xl {
+    float: right;
+    _display: inline;
+  }
+
+  .fn-xl {
+    float: none;
+  }
+}

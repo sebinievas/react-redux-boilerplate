@@ -1,0 +1,349 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   SKINS
+   Docs: http://tachyons.io/docs/themes/skins/
+
+   Classes for setting foreground and background colors on elements.
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
+
+*/
+
+/* Text colors */
+
+.black-90 {
+  color: $c-black--90;
+}
+
+.black-80 {
+  color: $c-black--80;
+}
+
+.black-70 {
+  color: $c-black--70;
+}
+
+.black-60 {
+  color: $c-black--60;
+}
+
+.black-50 {
+  color: $c-black--50;
+}
+
+.black-40 {
+  color: $c-black--40;
+}
+
+.black-30 {
+  color: $c-black--30;
+}
+
+.black-20 {
+  color: $c-black--20;
+}
+
+.black-10 {
+  color: $c-black--10;
+}
+
+.black-05 {
+  color: $c-black--05;
+}
+
+.white-90 {
+  color: $c-white--90;
+}
+
+.white-80 {
+  color: $c-white--80;
+}
+
+.white-70 {
+  color: $c-white--70;
+}
+
+.white-60 {
+  color: $c-white--60;
+}
+
+.white-50 {
+  color: $c-white--50;
+}
+
+.white-40 {
+  color: $c-white--40;
+}
+
+.white-30 {
+  color: $c-white--30;
+}
+
+.white-20 {
+  color: $c-white--20;
+}
+
+.white-10 {
+  color: $c-white--10;
+}
+
+.black {
+  color: $c-black;
+}
+
+.near-black {
+  color: $c-near-black;
+}
+
+.dark-gray {
+  color: $c-dark-gray;
+}
+
+.mid-gray {
+  color: $c-mid-gray;
+}
+
+.gray {
+  color: $c-gray;
+}
+
+.silver {
+  color: $c-silver;
+}
+
+.light-silver {
+  color: $c-light-silver;
+}
+
+.moon-gray {
+  color: $c-moon-gray;
+}
+
+.light-gray {
+  color: $c-light-gray;
+}
+
+.near-white {
+  color: $c-near-white;
+}
+
+.white {
+  color: $c-white;
+}
+
+.slate {
+  color: $c-slate;
+}
+
+.melt-blue {
+  color: $c-melt-blue;
+}
+
+.deep-blue {
+  color: $c-deep-blue;
+}
+
+.blue-gray {
+  color: $c-blue-gray;
+}
+
+.red {
+  color: $c-red;
+}
+
+.gold {
+  color: $c-gold;
+}
+
+.lime-green {
+  color: $c-lime-green;
+}
+
+.magenta {
+  color: $c-magenta;
+}
+
+.purple {
+  color: $c-purple;
+}
+
+.color-inherit {
+  color: inherit;
+}
+
+/* Background colors */
+
+.bg-black-90 {
+  background-color: $c-black--90;
+}
+
+.bg-black-80 {
+  background-color: $c-black--80;
+}
+
+.bg-black-70 {
+  background-color: $c-black--70;
+}
+
+.bg-black-60 {
+  background-color: $c-black--60;
+}
+
+.bg-black-50 {
+  background-color: $c-black--50;
+}
+
+.bg-black-40 {
+  background-color: $c-black--40;
+}
+
+.bg-black-30 {
+  background-color: $c-black--30;
+}
+
+.bg-black-20 {
+  background-color: $c-black--20;
+}
+
+.bg-black-10 {
+  background-color: $c-black--10;
+}
+
+.bg-black-05 {
+  background-color: $c-black--05;
+}
+
+.bg-white-90 {
+  background-color: $c-white--90;
+}
+
+.bg-white-80 {
+  background-color: $c-white--80;
+}
+
+.bg-white-70 {
+  background-color: $c-white--70;
+}
+
+.bg-white-60 {
+  background-color: $c-white--60;
+}
+
+.bg-white-50 {
+  background-color: $c-white--50;
+}
+
+.bg-white-40 {
+  background-color: $c-white--40;
+}
+
+.bg-white-30 {
+  background-color: $c-white--30;
+}
+
+.bg-white-20 {
+  background-color: $c-white--20;
+}
+
+.bg-white-10 {
+  background-color: $c-white--10;
+}
+
+.bg-black {
+  background-color: $c-black;
+}
+
+.bg-near-black {
+  background-color: $c-near-black;
+}
+
+.bg-dark-gray {
+  background-color: $c-dark-gray;
+}
+
+.bg-mid-gray {
+  background-color: $c-mid-gray;
+}
+
+.bg-gray {
+  background-color: $c-gray;
+}
+
+.bg-silver {
+  background-color: $c-silver;
+}
+
+.bg-light-silver {
+  background-color: $c-light-silver;
+}
+
+.bg-moon-gray {
+  background-color: $c-moon-gray;
+}
+
+.bg-light-gray {
+  background-color: $c-light-gray;
+}
+
+.bg-near-white {
+  background-color: $c-near-white;
+}
+
+.bg-white {
+  background-color: $c-white;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-slate {
+  background-color: $c-slate;
+}
+
+.bg-melt-blue {
+  background-color: $c-melt-blue;
+}
+
+.bg-deep-blue {
+  background-color: $c-deep-blue;
+}
+
+.bg-blue-gray {
+  background-color: $c-blue-gray;
+}
+
+.bg-red {
+  background-color: $c-red;
+}
+
+.bg-gold {
+  background-color: $c-gold;
+}
+
+.bg-lime-green {
+  background-color: $c-lime-green;
+}
+
+.bg-magenta {
+  background-color: $c-magenta;
+}
+
+.bg-purple {
+  background-color: $c-purple;
+}
+
+.bg-inherit {
+  background-color: inherit;
+}
+
+.bg-current-color {
+  background-color: currentColor;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "react_app",
+  "description": "React app",
+  "main": "index.js",
+  "authors": [
+    "Sebastian Nievas <sebinievas@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/meltmedia/drupal-react-ui",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gsap": "^1.19.1",
+    "breakpoint-sass": "^2.7.1"
+  }
+}

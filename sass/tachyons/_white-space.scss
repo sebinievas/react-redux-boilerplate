@@ -1,0 +1,100 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   WHITE SPACE
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+
+
+.ws-normal {
+  white-space: normal;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.pre {
+  white-space: pre;
+}
+
+@include breakpoint($bp--xsmall) {
+  .ws-normal-xs {
+    white-space: normal;
+  }
+
+  .nowrap-xs {
+    white-space: nowrap;
+  }
+
+  .pre-xs {
+    white-space: pre;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .ws-normal-sm {
+    white-space: normal;
+  }
+
+  .nowrap-sm {
+    white-space: nowrap;
+  }
+
+  .pre-sm {
+    white-space: pre;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .ws-normal-md {
+    white-space: normal;
+  }
+
+  .nowrap-md {
+    white-space: nowrap;
+  }
+
+  .pre-md {
+    white-space: pre;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .ws-normal-lg {
+    white-space: normal;
+  }
+
+  .nowrap-lg {
+    white-space: nowrap;
+  }
+
+  .pre-lg {
+    white-space: pre;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .ws-normal-xl {
+    white-space: normal;
+  }
+
+  .nowrap-xl {
+    white-space: nowrap;
+  }
+
+  .pre-xl {
+    white-space: pre;
+  }
+}

@@ -1,0 +1,306 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   FONT WEIGHT
+   Docs: http://tachyons.io/docs/typography/font-weight/
+
+   Base
+     fw = font-weight
+
+   Modifiers:
+     1 = literal value 100
+     2 = literal value 200
+     3 = literal value 300
+     4 = literal value 400
+     5 = literal value 500
+     6 = literal value 600
+     7 = literal value 700
+     8 = literal value 800
+     9 = literal value 900
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+
+.normal {
+  font-weight: 400;
+}
+
+.b {
+  font-weight: 700;
+}
+
+.fw1 {
+  font-weight: 100;
+}
+
+.fw2 {
+  font-weight: 200;
+}
+
+.fw3 {
+  font-weight: 300;
+}
+
+.fw4 {
+  font-weight: 400;
+}
+
+.fw5 {
+  font-weight: 500;
+}
+
+.fw6 {
+  font-weight: 600;
+}
+
+.fw7 {
+  font-weight: 700;
+}
+
+.fw8 {
+  font-weight: 800;
+}
+
+.fw9 {
+  font-weight: 900;
+}
+
+@include breakpoint($bp--xsmall) {
+  .normal-xs {
+    font-weight: 400;
+  }
+
+  .b-xs {
+    font-weight: 700;
+  }
+
+  .fw1-xs {
+    font-weight: 100;
+  }
+
+  .fw2-xs {
+    font-weight: 200;
+  }
+
+  .fw3-xs {
+    font-weight: 300;
+  }
+
+  .fw4-xs {
+    font-weight: 400;
+  }
+
+  .fw5-xs {
+    font-weight: 500;
+  }
+
+  .fw6-xs {
+    font-weight: 600;
+  }
+
+  .fw7-xs {
+    font-weight: 700;
+  }
+
+  .fw8-xs {
+    font-weight: 800;
+  }
+
+  .fw9-xs {
+    font-weight: 900;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .normal-sm {
+    font-weight: 400;
+  }
+
+  .b-sm {
+    font-weight: 700;
+  }
+
+  .fw1-sm {
+    font-weight: 100;
+  }
+
+  .fw2-sm {
+    font-weight: 200;
+  }
+
+  .fw3-sm {
+    font-weight: 300;
+  }
+
+  .fw4-sm {
+    font-weight: 400;
+  }
+
+  .fw5-sm {
+    font-weight: 500;
+  }
+
+  .fw6-sm {
+    font-weight: 600;
+  }
+
+  .fw7-sm {
+    font-weight: 700;
+  }
+
+  .fw8-sm {
+    font-weight: 800;
+  }
+
+  .fw9-sm {
+    font-weight: 900;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .normal-md {
+    font-weight: 400;
+  }
+
+  .b-md {
+    font-weight: 700;
+  }
+
+  .fw1-md {
+    font-weight: 100;
+  }
+
+  .fw2-md {
+    font-weight: 200;
+  }
+
+  .fw3-md {
+    font-weight: 300;
+  }
+
+  .fw4-md {
+    font-weight: 400;
+  }
+
+  .fw5-md {
+    font-weight: 500;
+  }
+
+  .fw6-md {
+    font-weight: 600;
+  }
+
+  .fw7-md {
+    font-weight: 700;
+  }
+
+  .fw8-md {
+    font-weight: 800;
+  }
+
+  .fw9-md {
+    font-weight: 900;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .normal-lg {
+    font-weight: 400;
+  }
+
+  .b-lg {
+    font-weight: 700;
+  }
+
+  .fw1-lg {
+    font-weight: 100;
+  }
+
+  .fw2-lg {
+    font-weight: 200;
+  }
+
+  .fw3-lg {
+    font-weight: 300;
+  }
+
+  .fw4-lg {
+    font-weight: 400;
+  }
+
+  .fw5-lg {
+    font-weight: 500;
+  }
+
+  .fw6-lg {
+    font-weight: 600;
+  }
+
+  .fw7-lg {
+    font-weight: 700;
+  }
+
+  .fw8-lg {
+    font-weight: 800;
+  }
+
+  .fw9-lg {
+    font-weight: 900;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .normal-xl {
+    font-weight: 400;
+  }
+
+  .b-xl {
+    font-weight: 700;
+  }
+
+  .fw1-xl {
+    font-weight: 100;
+  }
+
+  .fw2-xl {
+    font-weight: 200;
+  }
+
+  .fw3-xl {
+    font-weight: 300;
+  }
+
+  .fw4-xl {
+    font-weight: 400;
+  }
+
+  .fw5-xl {
+    font-weight: 500;
+  }
+
+  .fw6-xl {
+    font-weight: 600;
+  }
+
+  .fw7-xl {
+    font-weight: 700;
+  }
+
+  .fw8-xl {
+    font-weight: 800;
+  }
+
+  .fw9-xl {
+    font-weight: 900;
+  }
+}

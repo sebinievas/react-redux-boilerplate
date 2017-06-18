@@ -1,0 +1,317 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   MAX WIDTHS
+   Docs: http://tachyons.io/docs/layout/max-widths/
+
+   Base:
+     mw = max-width
+
+   Modifiers
+     1 = 1st step in width scale
+     2 = 2nd step in width scale
+     3 = 3rd step in width scale
+     4 = 4th step in width scale
+     5 = 5th step in width scale
+     6 = 6st step in width scale
+     7 = 7nd step in width scale
+     8 = 8rd step in width scale
+     9 = 9th step in width scale
+
+     -100 = literal value 100%
+
+     -none  = string value none
+
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+
+/* Max Width Percentages */
+
+.mw-100 {
+  max-width: 100%;
+}
+
+/* Max Width Scale */
+
+.mw1 {
+  max-width: $spacing--3;
+}
+
+.mw2 {
+  max-width: $spacing--4;
+}
+
+.mw3 {
+  max-width: $spacing--5;
+}
+
+.mw4 {
+  max-width: $spacing--6;
+}
+
+.mw5 {
+  max-width: $spacing--7;
+}
+
+.mw6 {
+  max-width: $spacing--8;
+}
+
+.mw7 {
+  max-width: $spacing--7 + $spacing--8;
+}
+
+.mw8 {
+  max-width: $spacing--9;
+}
+
+.mw9 {
+  max-width: $spacing--8 + $spacing--9;
+}
+
+/* Max Width String Properties */
+
+.mw-none {
+  max-width: none;
+}
+
+@include breakpoint($bp--xsmall) {
+  .mw-100-xs {
+    max-width: 100%;
+  }
+
+  .mw1-xs {
+    max-width: $spacing--3;
+  }
+
+  .mw2-xs {
+    max-width: $spacing--4;
+  }
+
+  .mw3-xs {
+    max-width: $spacing--5;
+  }
+
+  .mw4-xs {
+    max-width: $spacing--6;
+  }
+
+  .mw5-xs {
+    max-width: $spacing--7;
+  }
+
+  .mw6-xs {
+    max-width: $spacing--8;
+  }
+
+  .mw7-xs {
+    max-width: $spacing--7 + $spacing--8;
+  }
+
+  .mw8-xs {
+    max-width: $spacing--9;
+  }
+
+  .mw9-xs {
+    max-width: $spacing--8 + $spacing--9;
+  }
+
+  .mw-none-xs {
+    max-width: none;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .mw-100-sm {
+    max-width: 100%;
+  }
+
+  .mw1-sm {
+    max-width: $spacing--3;
+  }
+
+  .mw2-sm {
+    max-width: $spacing--4;
+  }
+
+  .mw3-sm {
+    max-width: $spacing--5;
+  }
+
+  .mw4-sm {
+    max-width: $spacing--6;
+  }
+
+  .mw5-sm {
+    max-width: $spacing--7;
+  }
+
+  .mw6-sm {
+    max-width: $spacing--8;
+  }
+
+  .mw7-sm {
+    max-width: $spacing--7 + $spacing--8;
+  }
+
+  .mw8-sm {
+    max-width: $spacing--9;
+  }
+
+  .mw9-sm {
+    max-width: $spacing--8 + $spacing--9;
+  }
+
+  .mw-none-sm {
+    max-width: none;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .mw-100-md {
+    max-width: 100%;
+  }
+
+  .mw1-md {
+    max-width: $spacing--3;
+  }
+
+  .mw2-md {
+    max-width: $spacing--4;
+  }
+
+  .mw3-md {
+    max-width: $spacing--5;
+  }
+
+  .mw4-md {
+    max-width: $spacing--6;
+  }
+
+  .mw5-md {
+    max-width: $spacing--7;
+  }
+
+  .mw6-md {
+    max-width: $spacing--8;
+  }
+
+  .mw7-md {
+    max-width: $spacing--7 + $spacing--8;
+  }
+
+  .mw8-md {
+    max-width: $spacing--9;
+  }
+
+  .mw9-md {
+    max-width: $spacing--8 + $spacing--9;
+  }
+
+  .mw-none-md {
+    max-width: none;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .mw-100-lg {
+    max-width: 100%;
+  }
+
+  .mw1-lg {
+    max-width: $spacing--3;
+  }
+
+  .mw2-lg {
+    max-width: $spacing--4;
+  }
+
+  .mw3-lg {
+    max-width: $spacing--5;
+  }
+
+  .mw4-lg {
+    max-width: $spacing--6;
+  }
+
+  .mw5-lg {
+    max-width: $spacing--7;
+  }
+
+  .mw6-lg {
+    max-width: $spacing--8;
+  }
+
+  .mw7-lg {
+    max-width: $spacing--7 + $spacing--8;
+  }
+
+  .mw8-lg {
+    max-width: $spacing--9;
+  }
+
+  .mw9-lg {
+    max-width: $spacing--8 + $spacing--9;
+  }
+
+  .mw-none-lg {
+    max-width: none;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .mw-100-xl {
+    max-width: 100%;
+  }
+
+  .mw1-xl {
+    max-width: $spacing--3;
+  }
+
+  .mw2-xl {
+    max-width: $spacing--4;
+  }
+
+  .mw3-xl {
+    max-width: $spacing--5;
+  }
+
+  .mw4-xl {
+    max-width: $spacing--6;
+  }
+
+  .mw5-xl {
+    max-width: $spacing--7;
+  }
+
+  .mw6-xl {
+    max-width: $spacing--8;
+  }
+
+  .mw7-xl {
+    max-width: $spacing--7 + $spacing--8;
+  }
+
+  .mw8-xl {
+    max-width: $spacing--9;
+  }
+
+  .mw9-xl {
+    max-width: $spacing--8 + $spacing--9;
+  }
+
+  .mw-none-xl {
+    max-width: none;
+  }
+}

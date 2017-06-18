@@ -1,0 +1,210 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   BORDER COLORS
+   Docs: http://tachyons.io/docs/themes/borders/
+
+   Border colors can be used to extend the base
+   border classes ba,bt,bb,br,bl found in the _borders.css file.
+
+   The base border class by default will set the color of the border
+   to that of the current text color. These classes are for the cases
+   where you desire for the text and border colors to be different.
+
+   Base:
+     b = border
+
+   Modifiers:
+   --color-name = each color variable name is also a border color name
+
+*/
+
+.b--black {
+  border-color: $c-black;
+}
+
+.b--near-black {
+  border-color: $c-near-black;
+}
+
+.b--dark-gray {
+  border-color: $c-dark-gray;
+}
+
+.b--mid-gray {
+  border-color: $c-mid-gray;
+}
+
+.b--gray {
+  border-color: $c-gray;
+}
+
+.b--silver {
+  border-color: $c-silver;
+}
+
+.b--light-silver {
+  border-color: $c-light-silver;
+}
+
+.b--moon-gray {
+  border-color: $c-moon-gray;
+}
+
+.b--light-gray {
+  border-color: $c-light-gray;
+}
+
+.b--near-white {
+  border-color: $c-near-white;
+}
+
+.b--white {
+  border-color: $c-white;
+}
+
+.b--white-90 {
+  border-color: $c-white--90;
+}
+
+.b--white-80 {
+  border-color: $c-white--80;
+}
+
+.b--white-70 {
+  border-color: $c-white--70;
+}
+
+.b--white-60 {
+  border-color: $c-white--60;
+}
+
+.b--white-50 {
+  border-color: $c-white--50;
+}
+
+.b--white-40 {
+  border-color: $c-white--40;
+}
+
+.b--white-30 {
+  border-color: $c-white--30;
+}
+
+.b--white-20 {
+  border-color: $c-white--20;
+}
+
+.b--white-10 {
+  border-color: $c-white--10;
+}
+
+.b--white-05 {
+  border-color: $c-white--05;
+}
+
+.b--white-025 {
+  border-color: $c-white--025;
+}
+
+.b--white-0125 {
+  border-color: $c-white--0125;
+}
+
+.b--black-90 {
+  border-color: $c-black--90;
+}
+
+.b--black-80 {
+  border-color: $c-black--80;
+}
+
+.b--black-70 {
+  border-color: $c-black--70;
+}
+
+.b--black-60 {
+  border-color: $c-black--60;
+}
+
+.b--black-50 {
+  border-color: $c-black--50;
+}
+
+.b--black-40 {
+  border-color: $c-black--40;
+}
+
+.b--black-30 {
+  border-color: $c-black--30;
+}
+
+.b--black-20 {
+  border-color: $c-black--20;
+}
+
+.b--black-10 {
+  border-color: $c-black--10;
+}
+
+.b--black-05 {
+  border-color: $c-black--05;
+}
+
+.b--black-025 {
+  border-color: $c-black--025;
+}
+
+.b--black-0125 {
+  border-color: $c-black--0125;
+}
+
+.b--slate {
+  border-color: $c-slate;
+}
+
+.b--melt-blue {
+  border-color: $c-melt-blue;
+}
+
+.b--deep-blue {
+  border-color: $c-deep-blue;
+}
+
+.b--blue-gray {
+  border-color: $c-blue-gray;
+}
+
+.b--red {
+  border-color: $c-red;
+}
+
+.b--gold {
+  border-color: $c-gold;
+}
+
+.b--lime-green {
+  border-color: $c-lime-green;
+}
+
+.b--magenta {
+  border-color: $c-magenta;
+}
+
+.b--purple {
+  border-color: $c-purple;
+}
+
+.b--transparent {
+  border-color: transparent;
+}
+
+.b--inherit {
+  border-color: inherit;
+}

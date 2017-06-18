@@ -1,0 +1,340 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   DISPLAY
+   Docs: http://tachyons.io/docs/layout/display
+
+   Base:
+    d = display
+
+   Modifiers:
+    n     = none
+    b     = block
+    ib    = inline-block
+    it    = inline-table
+    t     = table
+    tc    = table-cell
+    t-row          = table-row
+    t-columm       = table-column
+    t-column-group = table-column-group
+
+   Media Query Extensions:
+     -xs = not-small
+     -sm  = medium
+     -md  = large
+
+*/
+
+.dn {
+  display: none;
+}
+
+.di {
+  display: inline;
+}
+
+.db {
+  display: block;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.dit {
+  display: inline-table;
+}
+
+.dt {
+  display: table;
+}
+
+.dtc {
+  display: table-cell;
+}
+
+.dt-row {
+  display: table-row;
+}
+
+.dt-row-group {
+  display: table-row-group;
+}
+
+.dt-column {
+  display: table-column;
+}
+
+.dt-column-group {
+  display: table-column-group;
+}
+
+/*
+  This will set table to full width and then
+  all cells will be equal width
+*/
+.dt--fixed {
+  table-layout: fixed;
+  width: 100%;
+}
+
+@include breakpoint($bp--xsmall) {
+  .dn-xs {
+    display: none;
+  }
+
+  .di-xs {
+    display: inline;
+  }
+
+  .db-xs {
+    display: block;
+  }
+
+  .dib-xs {
+    display: inline-block;
+  }
+
+  .dit-xs {
+    display: inline-table;
+  }
+
+  .dt-xs {
+    display: table;
+  }
+
+  .dtc-xs {
+    display: table-cell;
+  }
+
+  .dt-row-xs {
+    display: table-row;
+  }
+
+  .dt-row-group-xs {
+    display: table-row-group;
+  }
+
+  .dt-column-xs {
+    display: table-column;
+  }
+
+  .dt-column-group-xs {
+    display: table-column-group;
+  }
+
+  .dt--fixed-xs {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+@include breakpoint($bp--small) {
+  .dn-sm {
+    display: none;
+  }
+
+  .di-sm {
+    display: inline;
+  }
+
+  .db-sm {
+    display: block;
+  }
+
+  .dib-sm {
+    display: inline-block;
+  }
+
+  .dit-sm {
+    display: inline-table;
+  }
+
+  .dt-sm {
+    display: table;
+  }
+
+  .dtc-sm {
+    display: table-cell;
+  }
+
+  .dt-row-sm {
+    display: table-row;
+  }
+
+  .dt-row-group-sm {
+    display: table-row-group;
+  }
+
+  .dt-column-sm {
+    display: table-column;
+  }
+
+  .dt-column-group-sm {
+    display: table-column-group;
+  }
+
+  .dt--fixed-sm {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+@include breakpoint($bp--medium) {
+  .dn-md {
+    display: none;
+  }
+
+  .di-md {
+    display: inline;
+  }
+
+  .db-md {
+    display: block;
+  }
+
+  .dib-md {
+    display: inline-block;
+  }
+
+  .dit-md {
+    display: inline-table;
+  }
+
+  .dt-md {
+    display: table;
+  }
+
+  .dtc-md {
+    display: table-cell;
+  }
+
+  .dt-row-md {
+    display: table-row;
+  }
+
+  .dt-row-group-md {
+    display: table-row-group;
+  }
+
+  .dt-column-md {
+    display: table-column;
+  }
+
+  .dt-column-group-md {
+    display: table-column-group;
+  }
+
+  .dt--fixed-md {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+@include breakpoint($bp--large) {
+  .dn-lg {
+    display: none;
+  }
+
+  .di-lg {
+    display: inline;
+  }
+
+  .db-lg {
+    display: block;
+  }
+
+  .dib-lg {
+    display: inline-block;
+  }
+
+  .dit-lg {
+    display: inline-table;
+  }
+
+  .dt-lg {
+    display: table;
+  }
+
+  .dtc-lg {
+    display: table-cell;
+  }
+
+  .dt-row-lg {
+    display: table-row;
+  }
+
+  .dt-row-group-lg {
+    display: table-row-group;
+  }
+
+  .dt-column-lg {
+    display: table-column;
+  }
+
+  .dt-column-group-lg {
+    display: table-column-group;
+  }
+
+  .dt--fixed-lg {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+@include breakpoint($bp--xlarge) {
+  .dn-xl {
+    display: none;
+  }
+
+  .di-xl {
+    display: inline;
+  }
+
+  .db-xl {
+    display: block;
+  }
+
+  .dib-xl {
+    display: inline-block;
+  }
+
+  .dit-xl {
+    display: inline-table;
+  }
+
+  .dt-xl {
+    display: table;
+  }
+
+  .dtc-xl {
+    display: table-cell;
+  }
+
+  .dt-row-xl {
+    display: table-row;
+  }
+
+  .dt-row-group-xl {
+    display: table-row-group;
+  }
+
+  .dt-column-xl {
+    display: table-column;
+  }
+
+  .dt-column-group-xl {
+    display: table-column-group;
+  }
+
+  .dt--fixed-xl {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
