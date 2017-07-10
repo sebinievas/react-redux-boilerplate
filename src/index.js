@@ -9,4 +9,4 @@ ReactDOM.render(
   <Provider store={store}>
     <App />
   </Provider>
-  , document.querySelector('.loda-react'));
+  , document.querySelector('.react-app'));
